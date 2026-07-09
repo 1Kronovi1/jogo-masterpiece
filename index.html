@@ -1,0 +1,149 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br" xml:lang="pt-br">
+<head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name='robots' content='noindex,follow' />
+    <meta http-equiv="Content-Security-Policy" content="">
+
+    <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+
+    <title>Portal Público Validador - Ânima Educação</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="validador-documento/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="validador-documento/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="validador-documento/favicon-16x16.png" />
+    <link rel="manifest" href="validador-documento/site.webmanifest" />
+</head>
+<body>
+
+<main>
+
+    <div class="wrapper">
+
+        <div id="home">
+
+            <div class="card-logo">
+                <img
+                    src="logo-anima-educacao.svg"
+                    alt="Logo Ânima Educação">
+            </div>
+
+            <div class="card-form">
+
+                <div class="card-title">
+                    <h1>VALIDAÇÃO DIGITAL</h1>
+                </div>
+
+                <div class="card-description">
+                    <p>
+                        A validade desse documento é automaticamente verificada pelo ecossistema ANIMA Educação, abaixo você pode conferir o resultado da validação:
+                    </p>
+                    <h5>
+                        Nº DO DOCUMENTO:
+                    </h5><br>
+                </div>
+
+                <div class="w-100">
+
+                    <form id="form_validador">
+
+                        <input
+                            type="hidden"
+                            id="honeypot">
+
+                        <input
+                            type="hidden"
+                            id="recaptcha_token">
+
+                        <input
+                            id="hash_documento"
+                            type="text"
+                            placeholder="Inserir o código validador"
+                            value="6c5e37bda3bd463ea3adfeb2f1b2d5ba">
+
+                        <span id="hash_documento_incompleta"></span>
+
+                    </form>
+                    <br>
+                    <h5>
+                        SITUAÇÃO:
+                    </h5>
+
+                    <div class="message-validator">
+
+                        <h2 class="response-icon valid-icon">
+                            Documento Válido
+                        </h2>
+
+                        <div class="card-response">
+
+                            <span class="card-response-label">
+                                Estudante
+                            </span>
+
+                            <span class="card-response-label">
+                                <b>Bruno Gomes de Sá Oliveira</b>
+                            </span>
+
+                        </div>
+
+                        <div class="card-response">
+
+                            <span class="card-response-label">
+                                Tipo do documento
+                            </span>
+
+                            <span class="card-response-label">
+                                <b>Declaração de Regularidade Acadêmica</b>
+                            </span>
+
+                        </div>
+
+                        <div class="card-response mb-0">
+
+                            <span class="card-response-label">
+                                Data de emissão
+                            </span>
+
+                            <span class="card-response-label">
+                                <b>08/06/2026</b>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card-btn-download">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="box-recaptcha">
+
+                <p>
+                    Esta página é protegida pelo Google reCAPTCHA para garantir
+                    que você não é um robô.
+                    <a href="#">Saiba mais.</a>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+</body>
+</html>
